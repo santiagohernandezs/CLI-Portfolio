@@ -5,7 +5,7 @@ import './App.css';
 export default function App() {
     const [show, setShow] = useState('')
 
-
+    //commands and content
     const commands = {
         "help": [
             'there are several commands that can be used.',
@@ -26,6 +26,7 @@ export default function App() {
 
     //setShow(commands.help.map(command => <ul><li>{command}</li></ul>))
 
+    //this function allows to catch the enter key press
     const handleKey = e => {
         if (e.key === 'Enter') {
             let cmd = document.getElementById('cmd')
