@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { FaDiscord, FaGithub } from 'react-icons/fa';
 import './App.css';
-import commnads from "./commands";
 
 export default function App() {
     const [show, setShow] = useState('')
