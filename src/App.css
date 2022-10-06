@@ -1,0 +1,63 @@
+.App {
+    min-height: inherit;
+    padding: 2rem;
+}
+
+.wrapper {
+    border: 5px solid white;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.welcome {
+    color: white !important;
+    margin-bottom: 1rem;
+}
+
+.display {
+    margin-top: 1rem;
+    color: white;
+}
+
+@keyframes cursor-blink {
+    0% {
+        opacity: 0;
+    }
+}
+
+
+textarea {
+    -webkit-appearance: none;
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    height: 25px;
+    width: 200px;
+    overflow: hidden;
+    resize: none;
+    white-space: nowrap;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+textarea:focus-visible {
+    -webkit-appearance: none;
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    height: 25px;
+    width: 200px;
+    overflow: hidden;
+    resize: none;
+    white-space: nowrap;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    white-space: pre;
+}
