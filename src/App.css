@@ -19,16 +19,24 @@
     color: white;
 }
 
+a {
+    color: white;
+}
+
 @keyframes cursor-blink {
     0% {
         opacity: 0;
     }
 }
 
+.about {
+    color: blanchedalmond
+}
+
 
 textarea {
-    -webkit-appearance: none;
-    font-family: 'Fira Code', monospace;
+    appearance: none;
+    font-family: CascadiaCode, 'Fira Code', monospace;
     font-size: 1rem;
     height: 25px;
     width: 200px;
@@ -41,8 +49,8 @@ textarea {
 }
 
 textarea:focus-visible {
-    -webkit-appearance: none;
-    font-family: 'Fira Code', monospace;
+    appearance: none;
+    font-family: CascadiaCode, 'Fira Code', monospace;
     font-size: 1rem;
     height: 25px;
     width: 200px;

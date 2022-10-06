@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@font-face {
+    font-family: CascadiaCode;
+    src: url("C:\\Users\\bigta\\OneDrive\\Documents\\Code\\React\\CLI Portfolio\\src\\fonts\\CascadiaCode\\Caskaydia Cove Nerd Font Complete Mono Windows Compatible SemiBold.otf");
+}
 
 * {
     margin: 0;
@@ -11,5 +14,5 @@ body,
 #root {
     background-color: #303030;
     min-height: 100vh;
-    font-family: 'Fira Code', monospace;
+    font-family: CascadiaCode, 'Fira Code', monospace;
 }
