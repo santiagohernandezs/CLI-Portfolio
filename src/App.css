@@ -17,6 +17,7 @@
 .display {
     margin-top: 1rem;
     color: white;
+    line-height: 1.5rem;
 }
 
 a {
@@ -31,6 +32,15 @@ a {
 
 .about {
     color: blanchedalmond
+}
+
+span {
+    color: white;
+}
+
+.command-line {
+    display: flex;
+    gap: 1rem;
 }
 
 
